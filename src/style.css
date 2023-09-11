@@ -1,0 +1,358 @@
+/* swiper */
+
+
+/* .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  } */
+
+@media only screen and (max-width:600px){
+
+    .carousel-inner{
+        height: 400px;
+            }
+
+            .banner-img{
+                height: 400px;
+            }
+
+    .card-about{
+position: relative;
+height: 305px;
+}
+
+.leave-navbar{
+
+}
+
+.sectionImg{
+    height: 300px;
+    width: 100%;
+}
+
+.banner-heading{
+    color: #41516a;
+    font-size: 65px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.bg-banner{
+    height: 650px;
+padding-top: 150px;
+}
+
+.swiper-mod{
+ display: none !important;
+    height: 600px;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.banner-heading{
+    font-size: 30px;
+}
+
+}
+
+@media only screen and (min-width:768px){
+    .carousel-inner{
+        height: 400px;
+            }
+
+
+            .banner-img{
+                height: 400px;
+            }
+
+    .card-about{
+position: relative;
+}
+
+.leave-navbar{
+
+}
+
+.banner-heading{
+    font-size: 30px;
+}
+
+}
+
+@media only screen and (min-width:998px){
+    .carousel-inner{
+height: 500px;
+    }
+
+    .banner-img{
+        height: 500px;
+    }
+
+    .card-about{
+position: relative;
+height: 390px;
+}
+
+
+
+    .col-build-5{
+        width: 20%;
+    }
+.leave-navbar{
+    padding-top: 80px;
+
+}
+
+.sectionImg{
+    height: 500px;
+    width: 100%;
+}
+
+.swiper-mod{
+    height: 450px;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.banner-heading{
+    color: #41516a;
+    font-size: 65px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.bg-banner{
+    height: 650px;
+padding-top: 50px;
+}
+
+}
+
+@media only screen and (min-width:1400px){
+    .carousel-inner{
+        height: 700px;
+            }
+
+            .banner-img{
+                height: 700px;
+            }
+
+    .card-about{
+position: relative;
+height: 360px;
+}
+
+
+
+    .col-build-5{
+        width: 20%;
+    }
+.leave-navbar{
+padding-top: 80px;
+}
+
+.sectionImg{
+    height: 600px;
+    width: 100%;
+}
+
+.bg-banner{
+    height: 800px;
+    padding-top: 50px;
+
+}
+
+.swiper-mod{
+    height: 600px;
+    width: 70%;
+    border-radius: 50px;
+}
+
+.banner-heading{
+    color: #41516a;
+    font-size: 70px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+}
+
+
+
+.banner-slider-img{
+height:fit-content;
+}
+
+.bg-banner{
+    position: relative;
+    background-image:url("./img/backgroundBanner.jpg") ;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.white-bg{
+    position: absolute;
+    background-color: #ffffffeb;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+}
+
+
+
+.section-heading{
+    color: #41516a;
+    font-size: 60px;
+}
+
+
+.btn-learn{
+position: absolute;
+bottom: 5%;
+text-decoration: none;
+color: black;
+background-color: #5f87df;
+border-radius: 5px;
+width: 150px;
+text-align: center;
+line-height: 2.5;
+color: white;
+transition: all 0.3s ease-in-out;
+}
+
+.btn-learn:hover{
+    background-color: #83aaff;
+    color: white;
+}
+
+.card-about{
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px #c9c9c9;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.card-about:hover{
+cursor: pointer;
+}
+
+.about-icons{
+font-size: 30px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+transition: all 0.3s ease-in-out;
+}
+
+.thumb{
+    background-color: #e0e0e0;
+    height: 60px;
+    width: 60px;
+    border-radius: 2px 10px 10px 10px;
+    position: absolute;
+transition: all 0.3s ease-in-out;
+
+
+}
+
+.thumber{
+    height: 60px;
+    width: 60px;
+margin-bottom: 20px;
+}
+
+.card-about:hover .thumb{
+    background-color: #83aaff;
+
+}
+
+.card-about:hover .about-icons{
+color: white;
+
+}
+
+
+.btn-find-model{
+    width: 200px;
+    border: none;
+    line-height: 2.5;
+    color: black;
+    font-weight: 500;
+
+}
+
+.bg-black-opacity{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    z-index: 111;
+}
+
+ /* url(assets/img/hero-img-2.jpg) center center no-repeat rgba(0, 0, 0, 0.5);
+    position: relative;
+    background-blend-mode: darken; */
+
+.carousel-caption{
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    transform: translateY(-50%, -10%);
+    z-index: 11;
+    /* padding: 0px 0px ; */
+}
+
+.bg-black-banner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.623);
+top: 0%;
+
+}
+
+.card-about p{
+text-align: justify;
+}
+
+.offer-card{
+
+}
+
+.offer-card p{
+    
+}
+
+.offer-thumb{
+position: relative;
+background-color: white;
+box-shadow: 0px 0px 7px 0px #c8c8c8;
+height: 70px;
+width: 70px;
+border-radius: 50px;
+margin-bottom: 20px;
+}
+
+.thumb-icon{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.font-weight-500{
+    font-weight: 500;
+}
