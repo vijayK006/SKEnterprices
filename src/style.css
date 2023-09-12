@@ -21,6 +21,19 @@
     height: 460px;
     }
 
+    .bg-satndardmotors{
+    
+    height: 800px;
+}
+
+.bg-content{
+    width: 100%;
+    top: 50%;
+left: 5%;
+transform: translate(0%, -50%);
+}
+
+
     .card-swiper-offer2{
         height: 530px;
         }
@@ -77,6 +90,18 @@ padding-top: 150px;
         height: 400px;
             }
 
+            .bg-satndardmotors{
+    
+                height: 800px;
+            }
+
+            .bg-content{
+                width: 50%;
+                top: 50%;
+left: 10%;
+transform: translate(-10%, -50%);
+            }
+
             .card-swiper-offer{
     height: 500px;
             }
@@ -108,6 +133,22 @@ position: relative;
     .carousel-inner{
 height: 500px;
     }
+
+    .bg-satndardmotors{
+    
+        height: 700px;
+    }
+
+    .bg-content{
+        width: 50%;
+        top: 50%;
+left: 10%;
+transform: translate(-10%, -50%);
+    }
+
+    .q-card{
+        height: 260px;
+        }
 
     .card-swiper-offer{
         height: 450px;
@@ -167,6 +208,13 @@ padding-top: 50px;
         height: 700px;
             }
 
+            .bg-content{
+                width: 50%;
+                top: 50%;
+left: 10%;
+transform: translate(-10%, -50%);
+            }
+
             .card-swiper-offer{
                 height: 470px;
     
@@ -175,6 +223,14 @@ padding-top: 50px;
             .card-swiper-offer2{
                 height: 530px;
     
+            }
+    .q-card{
+    height: 240px;
+    }
+
+            .bg-satndardmotors{
+    
+                height: 700px;
             }
 
             .banner-img{
@@ -327,7 +383,7 @@ color: white;
 }
 
 .bg-black-opacity{
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     font-weight: 600;
     color: white;
@@ -339,10 +395,10 @@ color: white;
     background-blend-mode: darken; */
 
 .carousel-caption{
-    top: 50%;
-    left: 10%;
-    width: 80%;
-    transform: translateY(-50%, -10%);
+    top: 60%;
+    left: 30%;
+    width: 60%;
+    transform: translate(-30%, -60%);
     z-index: 11;
     /* padding: 0px 0px ; */
 }
@@ -434,11 +490,21 @@ bottom: 2%;
         width: 100%;
         border-radius: 10px;
     }
+
+    .swipimgcard2{
+        height: 300px;
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    .content2{
+width: 60%;
+    }
     
 
     .sec-para{
         font-weight: 500;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .swiper{
@@ -447,7 +513,6 @@ bottom: 2%;
 
     .bg-satndardmotors{
         background-image: url('./img/products/standardmotor.jpeg');
-        height: 600px;
         width: 100%;
         background-position: center;
         background-size: cover;
@@ -466,4 +531,81 @@ position: absolute;
     .bg-content h2{
         color: white;
 
+    }
+
+    .bg-content h5{
+        color: white;
+
+    }
+
+    .seclist li{
+        color: white;
+    }
+
+    .cart-list-items li{
+font-size: 15px;
+    }
+
+    .single-list li{
+margin: 8px 0px;
+    }
+
+    .breadcrumb{
+        background-image:url('./img/crumb.jpg') ;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+
+    .crumb-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .crumb-content{
+z-index: 111;
+    } 
+
+    .crumb-content h1{
+font-size: 50px;
+color: white;
+
+    
+    }
+
+    .content-breadcrumb h2{
+font-size: 45px;
+    }
+
+    .content-breadcrumb p{
+text-align: justify;
+    }
+
+    .bread-innerImg{
+        width: 90%;
+        height: 560px;
+        border-radius: 20px;
+    }
+
+    .q-card{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 7px 0px #cacaca;
+        padding: 10px;
+    
+    }
+
+    .q-card h3{
+        
+    }
+
+    .q-card p{
+        text-align: justify;
+        color: gray;
+        font-weight: 500;
+        margin-top: 20px;
     }

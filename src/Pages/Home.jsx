@@ -30,7 +30,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import WeOffer from '../components/WeOffer';
-import OurProducts from '../components/OurProducts';
+import Features from '../components/Features';
+import Products from '../components/Products';
 // import './styles.css';
 
 const Home = () => {
@@ -50,7 +51,7 @@ const Home = () => {
     <div className="carousel-item active position-relative">
       <img src={bannerimg1} alt="Los Angeles" className="d-block banner-img" style={{width:"100%"}}/>
       <div className="carousel-caption position-absolute">
-        <h1 style={{textAlign:"center"}}>SK Enterprise</h1>
+        <h1 style={{textAlign:"left"}}>SK Enterprise</h1>
         <p className='bg-black-opacity'>We are  proficient  in  the execution of  pre-design, design solution & build projects.</p>
       </div>
       <div className='bg-black-banner'/>
@@ -285,15 +286,40 @@ IC low-voltage asynchronous industrial motors from 0.09 KW to 5 MW. IC motors
  provide a high reliability and efficiency, are suitable for all industries and
   applications, meet all standard
  requirements and fulfill international and local regulations</p>
+
+
+ <h5 className='pt-5'>IE2 High / IE3 Premium Efficiency Motors</h5>
+
+ <ul className='seclist' >
+    <li>Frames: 63 to 35SLX</li>
+    <li>Rating: 0.12 to 315.0 kW</li>
+    <li>Poles: 2, 4, 6, 8</li>
+    <li>Mtg.: B3, BS, B14 & comb.</li>
+    <li>Prot.: IP55</li>
+    <li>Enci.: TEFC</li>
+ </ul>
+
+ <h5>Multi speed Motors</h5>
+<ul className='seclist'>
+   <li>Frames: 71 to 355LX</li>
+   <li>Rating:  0.12 to 150.0 kW</li>
+   <li>Poles: 4/2, 8/4, 6/4, 8/6 8 others</li>
+   <li>Mtg.: B3, BS, B14 & comb.</li>
+   <li>Prot.: IP55</li>
+   <li>Enci.: TEFC</li>
+</ul>
 </div>
 
 </section>
 {/* Standard Motor Section End */}
 
             {/* Our Products section Start*/}
-<OurProducts/>
+<Features/>
             {/* Our Products section End*/}
 
+{/* Our Products Start */}
+<Products/>
+{/* Our Products End */}
 
             {/* Find Out More Section Start */}
 <div className='pt-3 pb-3' style={{backgroundColor:"#41516a"}}>

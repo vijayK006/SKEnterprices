@@ -9,6 +9,8 @@ function App() {
     <BrowserRouter>
 <Routes>
 <Route exact path='/' element={<Home />} />
+<Route exact path='/WhyChoose' element={<WhyChoose />} />
+
 
 </Routes>
     </BrowserRouter>

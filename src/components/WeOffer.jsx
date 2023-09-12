@@ -59,7 +59,7 @@ const WeOffer = () => {
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>Transformers</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>Power Transformer Voltage level: upto 66KVn</li>
     <li className='pt-1 pb-1'>Distribution trafo. As per specifications</li>
 </ul>
@@ -75,7 +75,7 @@ const WeOffer = () => {
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>LV Panels</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>Motor Control Centers</li>
     <li className='pt-1 pb-1'>Power Control Centers</li>
     <li>Power Distribution panels</li>
@@ -93,7 +93,7 @@ const WeOffer = () => {
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>MV Panels</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>Voltage range-6.6 to 33KV </li>
     <li className='pt-1 pb-1'>Current Rating: 630A to 3150A with STC - 25KA to 40KA</li>
     <li className='pt-1 pb-1'>Indoor and Outdoor design</li>
@@ -111,7 +111,7 @@ const WeOffer = () => {
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>Drive Panels</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>In Association with NIDEC for supporting customers by supplying</li>
     <li className='pt-1 pb-1'>DC Drives</li>
     <li className='pt-1 pb-1'> Variable Frequency Drives</li>
@@ -128,7 +128,7 @@ const WeOffer = () => {
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>PLC Panels</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>Providing Advance automation solution in association with
 NIDEC Industrial Automation  systems</li>
 </ul>
@@ -144,7 +144,7 @@ NIDEC Industrial Automation  systems</li>
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>Substation Solution</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>Voltage level: upto 132KV</li>
     <li className='pt-1 pb-1'>Best - In Class Products Contruction schemes:
     <br/>
@@ -167,7 +167,7 @@ NIDEC Industrial Automation  systems</li>
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>Distribution boards</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>RTDB's</li>
     <li className='pt-1 pb-1'>MLBD's</li>
     <li className='pt-1 pb-1'>APDB's</li>
@@ -185,7 +185,7 @@ NIDEC Industrial Automation  systems</li>
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>C&R Panels</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>Dead front and 19 rake design</li>
     <li className='pt-1 pb-1'>Protection scheme :
     <br/>
@@ -214,7 +214,7 @@ NIDEC Industrial Automation  systems</li>
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>APFC Panels</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>Voltage level: upto 690VAC</li>
     <li className='pt-1 pb-1'>Both cont actor and thyrist or  switching</li>
     <li className='pt-1 pb-1'>Easy for maintenance</li>
@@ -232,7 +232,7 @@ NIDEC Industrial Automation  systems</li>
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>RT Motors</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>Range of motors</li>
     <li className='pt-1 pb-1'>Slip-Ring</li>
     <li className='pt-1 pb-1'>Squirrel cage</li>
@@ -251,7 +251,7 @@ NIDEC Industrial Automation  systems</li>
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>Mill Duty Motors</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>Range of motors</li>
     <li className='pt-1 pb-1'>DC Motors</li>
     <li className='pt-1 pb-1'>Induction Motors As per customer requirement</li>
@@ -269,7 +269,7 @@ NIDEC Industrial Automation  systems</li>
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>CABLES</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>HT & LT Power Cables</li>
     <li className='pt-1 pb-1'>Control Cables</li>
     <li className='pt-1 pb-1'>Instrumen tation Cables etc.,.</li>
@@ -287,7 +287,7 @@ NIDEC Industrial Automation  systems</li>
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>CONTROL DESK</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>Integrated systems with unique solution and plug and play design</li>
 
 
@@ -304,7 +304,7 @@ NIDEC Industrial Automation  systems</li>
 <img src={product1} alt="swiper-img" className='swipimgcard'/>
 <div className='content'>
 <h5 className='pt-2'>Bus Duct</h5>
-<ul>
+<ul className='cart-list-items'>
     <li className='pt-1 pb-1'>Non segrigated bus duct, Voltage upto 690VAC</li>
     <li className='pt-1 pb-1'>Current capacity: 1200A to 6300A</li>
 
