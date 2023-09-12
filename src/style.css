@@ -17,9 +17,16 @@
   } */
 
 @media only screen and (max-width:600px){
+    .card-swiper-offer{
+    height: 460px;
+    }
+
+    .card-swiper-offer2{
+        height: 530px;
+        }
 
     .carousel-inner{
-        height: 400px;
+       
             }
 
             .banner-img{
@@ -70,6 +77,14 @@ padding-top: 150px;
         height: 400px;
             }
 
+            .card-swiper-offer{
+    height: 500px;
+            }
+
+            .card-swiper-offer2{
+                height: 500px;
+                        }
+
 
             .banner-img{
                 height: 400px;
@@ -94,6 +109,15 @@ position: relative;
 height: 500px;
     }
 
+    .card-swiper-offer{
+        height: 450px;
+    
+    }
+    .card-swiper-offer2{
+        height: 550px;
+    
+    }
+
     .banner-img{
         height: 500px;
     }
@@ -114,7 +138,7 @@ height: 390px;
 }
 
 .sectionImg{
-    height: 500px;
+    height: 400px;
     width: 100%;
 }
 
@@ -143,6 +167,16 @@ padding-top: 50px;
         height: 700px;
             }
 
+            .card-swiper-offer{
+                height: 470px;
+    
+            }
+
+            .card-swiper-offer2{
+                height: 530px;
+    
+            }
+
             .banner-img{
                 height: 700px;
             }
@@ -162,7 +196,7 @@ padding-top: 80px;
 }
 
 .sectionImg{
-    height: 600px;
+    height: 400px;
     width: 100%;
 }
 
@@ -356,3 +390,80 @@ margin-bottom: 20px;
 .font-weight-500{
     font-weight: 500;
 }
+
+.sectionImg{
+    border-radius: 10px;
+    }
+
+    .sub-header{
+        text-align: center;
+        width: max-content;
+        box-shadow: 0px 0px 5px 0px #bcbcbc;
+        padding: 10px;
+        border-radius: 20px;
+
+        letter-spacing: 1px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .card-swiper-offer{
+        position: relative;
+        box-shadow: 0px 0px 5px 0px #bcbcbc;
+        width: 100%;
+        margin: 50px 0px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .card-swiper-offer2{
+        position: relative;
+        box-shadow: 0px 0px 5px 0px #bcbcbc;
+        width: 100%;
+        margin: 50px 0px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .btnsec{
+position: absolute;
+bottom: 2%;
+    }
+    .swipimgcard{
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+
+    .sec-para{
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .swiper{
+        padding: 5px !important;
+    }
+
+    .bg-satndardmotors{
+        background-image: url('./img/products/standardmotor.jpeg');
+        height: 600px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .bg-content{
+position: absolute;
+    }
+
+    .bg-content p{
+        color: white;
+
+    }
+
+    .bg-content h2{
+        color: white;
+
+    }

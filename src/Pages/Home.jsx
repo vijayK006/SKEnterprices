@@ -5,7 +5,9 @@ import bannerimg1 from '../img/banner1.jpg';
 import bannerimg2 from '../img/banner2.jpg';
 import bannerimg3 from '../img/backgroundBanner.jpg';
 
-import aboutsecImg from '../img/aboutsec.jpg';
+import aboutsecImg from '../img/aboutus.jpg';
+import offerImg from '../img/wesupport.jpg';
+import product1 from '../img/products/transformers.jpg';
 
 import { Link } from 'react-router-dom';
 
@@ -19,6 +21,17 @@ import { SiAntdesign } from 'react-icons/si';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
+// Swiper
+import { Pagination, Navigation } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import WeOffer from '../components/WeOffer';
+import OurProducts from '../components/OurProducts';
+// import './styles.css';
 
 const Home = () => {
     return (
@@ -187,8 +200,8 @@ const Home = () => {
             {/* About Us Section End */}
 
             {/* We Support Start */}
-            <div className='container pb-5'>
-<h2 className='section-heading  text-center'>We Offer</h2>
+            <div className='container pb-5 pt-3'>
+<h2 className='section-heading  text-center pb-5'>We Support</h2>
 
                 <div className='row align-items-center'>
                     <div className='col-lg-6'>
@@ -249,12 +262,38 @@ const Home = () => {
                     </div>
 
                     <div className='col-lg-6'>
-                    <img src={aboutsecImg} className='sectionImg' alt="about" />
+                    <img src={offerImg} className='sectionImg' alt="about" />
 
                     </div>
                 </div>
             </div>
             {/* We Support End */}
+
+        {/* We Offer section Start*/}
+        <WeOffer/>
+        {/* We Offer section End*/}
+
+
+{/* Standard Motor Section Start */}
+<section className='bg-satndardmotors'>
+
+<div className='bg-content'>
+        <h2>Standard Motors</h2>
+
+    <p>We can supply a wide range of
+IC low-voltage asynchronous industrial motors from 0.09 KW to 5 MW. IC motors
+ provide a high reliability and efficiency, are suitable for all industries and
+  applications, meet all standard
+ requirements and fulfill international and local regulations</p>
+</div>
+
+</section>
+{/* Standard Motor Section End */}
+
+            {/* Our Products section Start*/}
+<OurProducts/>
+            {/* Our Products section End*/}
+
 
             {/* Find Out More Section Start */}
 <div className='pt-3 pb-3' style={{backgroundColor:"#41516a"}}>
