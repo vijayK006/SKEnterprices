@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from "react";
+
 import Navbar from '../components/Navbar';
 
 import bannerimg1 from '../img/banner1.jpg';
@@ -25,6 +26,9 @@ import Footer from '../components/Footer';
 import { Pagination, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+import navlogo from '../img/logo/LOGO-SKE_Logo.png';
+
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -34,10 +38,47 @@ import Features from '../components/Features';
 import Products from '../components/Products';
 // import './styles.css';
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Home = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
+
     return (
         <>
             <Navbar />
+
+            {/* <nav className='nav'>
+    <div className='container'>
+        <div className='nav-flex'>
+            <div className='nav-logo'>
+                <img src={navlogo} alt='logo' />
+            </div>
+
+            <div className='nav-item'>
+                <ul className='nav-items'>
+                <li><Link to="/" className='link-black'>Home</Link></li>
+
+                    <li><Link to="/WhyChoose" className='link-black'>Why Choose Us</Link></li>
+
+                    <li><a href='#' className='link-black'>Our Services</a></li>
+
+                    <li><Link to="/Industries" className='link-black'>Industries</Link></li>
+
+                    <li><a href='#contact' className='link-black'>Contact Us</a></li>
+
+                    <li><a href='#' className='link-black'>Our Products</a></li>
+
+                    <li><a href='#' className='link-black'>Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav> */}
+
             <div className='leave-navbar'>
             <div id="demo" className="carousel slide" data-bs-ride="carousel">
 
@@ -51,24 +92,24 @@ const Home = () => {
     <div className="carousel-item active position-relative">
       <img src={bannerimg1} alt="Los Angeles" className="d-block banner-img" style={{width:"100%"}}/>
       <div className="carousel-caption position-absolute">
-        <h1 style={{textAlign:"left"}}>SK Enterprise</h1>
-        <p className='bg-black-opacity'>We are  proficient  in  the execution of  pre-design, design solution & build projects.</p>
+        <h1 style={{textAlign:"left"}} data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom">SK Enterprise</h1>
+        <p className='bg-black-opacity' data-aos="fade-down" data-aos-duration="3000" data-aos-anchor-placement="center-bottom">We are  proficient  in  the execution of  pre-design, design solution & build projects.</p>
       </div>
       <div className='bg-black-banner'/>
     </div>
     <div className="carousel-item position-relative">
       <img src={bannerimg2} alt="Chicago" className="d-block banner-img" style={{width:"100%"}}/>
       <div className="carousel-caption position-absolute">
-      {/* <h1 style={{textAlign:"center"}}>SK Enterprise</h1> */}
 
-        <p className='bg-black-opacity'>Our field of experience cover all types of services in projects as diverse  as Design and Development,   Supply  of Electrical  Switchgears, Control    Gears,  Cables,  Motors   etc.,</p>
+
+        <p className='bg-black-opacity' data-aos="fade-down" data-aos-duration="3000" data-aos-anchor-placement="center-bottom">Our field of experience cover all types of services in projects as diverse  as Design and Development,   Supply  of Electrical  Switchgears, Control    Gears,  Cables,  Motors   etc.,</p>
       </div> 
       <div className='bg-black-banner'/>
     </div>
     <div className="carousel-item position-relative">
       <img src={bannerimg3} alt="New York" className="d-block banner-img" style={{width:"100%"}}/>
       <div className="carousel-caption position-absolute">
-      {/* <h1 style={{textAlign:"center"}}>SK Enterprise</h1> */}
+
 
         <p className='bg-black-opacity'>In addition, we can also provide  Pre-Planning,  Analysis,  Testing, Supervision of Erection & Commissioning</p>
       </div>
@@ -89,9 +130,9 @@ const Home = () => {
 
             {/* About Us Section Start */}
 
-            <section className='bg-default pt-5'>
+            <section className='bg-default pt-5' >
                 <div className="container">
-                    <div className='row align-items-center'>
+                    <div className='row align-items-center' >
                         <div className='col-lg-6'>
                             <h2 className='section-heading pb-5'>About Us</h2>
 
@@ -109,13 +150,13 @@ const Home = () => {
                             <p style={{ textAlign: "justify", fontWeight: "500" }}>Belief, Integrity, Innovativeness, in exceeding our goals have been the basis of our rally to success.</p>
 
                         </div>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6' >
                             <img src={aboutsecImg} className='sectionImg' alt="about" />
                         </div>
                     </div>
                 </div>
 
-                <div className='container-fluid'>
+                <div className='container-fluid' id="service">
                     <div className='row pt-5 pb-5'>
                         <div className='col-build-5 col-md-3 col-12 pt-1 pb-1'>
                             <div className='card-about'>
@@ -281,7 +322,7 @@ const Home = () => {
 <div className='bg-content'>
         <h2>Standard Motors</h2>
 
-    <p>We can supply a wide range of
+    <p className='justify-t-inmobile'>We can supply a wide range of
 IC low-voltage asynchronous industrial motors from 0.09 KW to 5 MW. IC motors
  provide a high reliability and efficiency, are suitable for all industries and
   applications, meet all standard

@@ -57,7 +57,7 @@ const Products = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex'>
+            <div className='card-swiper-offer3'>
 <img src={product1} alt="swiper-img2" className='swipimgcard2'/>
 &nbsp;
 &nbsp;
@@ -66,7 +66,7 @@ const Products = () => {
 <h4 className='pt-2'>AC Motor</h4>
 
 <div className='row'>
-    <div className='col-6'>
+    <div className='col-lg-6 col-md-6 col-12'>
 <ul className='single-list'> 
     <li style={{listStyle:"none"}}><TiTick/> High Voltage Motor</li>
     <li style={{listStyle:"none"}}><TiTick/> Rerolling Mill Duty Motor</li>
@@ -77,7 +77,7 @@ const Products = () => {
     </ul>
 </div>
 
-<div className='col-6'>
+<div className='col-lg-6 col-md-6 col-12'>
 <ul className='single-list'>
 <li style={{listStyle:"none"}}><TiTick/> Open Type Cage Motor</li>
 <li style={{listStyle:"none"}}><TiTick/> Wound Open Type Motor</li>
@@ -100,7 +100,7 @@ const Products = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex '>
+            <div className='card-swiper-offer3'>
 <img src={product1} alt="swiper-img2" className='swipimgcard2'/>
 &nbsp;
 &nbsp;
@@ -109,7 +109,7 @@ const Products = () => {
 <h4 className='pt-2'>DC Motors </h4>
 
 <div className='row'>
-    <div className='col-6'>
+    <div className='col-lg-6 col-md-6 col-12'>
 <ul className='single-list'> 
     <li style={{listStyle:"none"}}><TiTick/> Laminated yoke DC Motors</li>
     <li style={{listStyle:"none"}}><TiTick/> Mill Duty DC Motors</li>
@@ -129,7 +129,7 @@ const Products = () => {
         </SwiperSlide>
    
         <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex '>
+            <div className='card-swiper-offer3 '>
 <img src={product1} alt="swiper-img2" className='swipimgcard2'/>
 &nbsp;
 &nbsp;
@@ -138,7 +138,7 @@ const Products = () => {
 <h4 className='pt-2'>Transformers</h4>
 
 <div className='row'>
-    <div className='col-6'>
+    <div className='col-lg-6 col-md-6 col-12'>
 <ul className='single-list'> 
     <li style={{listStyle:"none"}}><TiTick/> <b>Oil Immersed</b>
     <ul>
@@ -153,7 +153,7 @@ const Products = () => {
     </ul>
 </div>
 
-<div className='col-6'>
+<div className='col-lg-6 col-md-6 col-12'>
 <ul className='single-list'>
 <li style={{listStyle:"none"}}><TiTick/> <b>Dry Type Transformer</b>
 <ul>
@@ -177,7 +177,7 @@ const Products = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex '>
+            <div className='card-swiper-offer3 '>
 <img src={product1} alt="swiper-img2" className='swipimgcard2'/>
 &nbsp;
 &nbsp;
@@ -186,14 +186,14 @@ const Products = () => {
 <h4 className='pt-2'>Gearbox</h4>
 
 <div className='row'>
-    <div className='col-6'>
+    <div className='col-lg-6 col-md-6 col-12'>
 <ul className='single-list'> 
 <li style={{listStyle:"none"}}><TiTick/> Planitery Gear Box</li>
 <li style={{listStyle:"none"}}><TiTick/> Worm Gear Box</li>
     </ul>
 </div>
 
-<div className='col-6'>
+<div className='col-lg-6 col-md-6 col-12'>
 <ul className='single-list'>
 <li style={{listStyle:"none"}}><TiTick/> <b>Helical Gear Box</b>
 <ul>
@@ -218,7 +218,7 @@ const Products = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex '>
+            <div className='card-swiper-offer3 '>
 <img src={product1} alt="swiper-img2" className='swipimgcard2'/>
 &nbsp;
 &nbsp;
@@ -226,29 +226,71 @@ const Products = () => {
 <div className='content2'>
 <h4 className='pt-2'>Switchgear Panels</h4>
 
-{/* <div className='row'>
-    <div className='col-6'>
-<ul className='single-list'> 
-<li style={{listStyle:"none"}}><TiTick/> Planitery Gear Box</li>
-<li style={{listStyle:"none"}}><TiTick/> Worm Gear Box</li>
-    </ul>
-</div>
+<ul className="nav nav-tabs" role="tablist">
+    <li className="nav-item">
+      <a className="nav-link active" data-bs-toggle="pill" href="#home">Medium Voltage Panels</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu1">Low Voltage Panels</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link" data-bs-toggle="pill" href="#menu2">Special</a>
+    </li>
+  </ul>
 
-<div className='col-6'>
-<ul className='single-list'>
-<li style={{listStyle:"none"}}><TiTick/> <b>Helical Gear Box</b>
-<ul>
-    <li>Inline Helical</li>
-    <li>Bevel Helical</li>
-    <li>Parlel Helical</li>
+  <div className="tab-content">
+    <div id="home" className="container tab-pane active"><br/>
+
+      <h3 >Medium Voltage Panels</h3>
+
+      <ul className='list-content_li'>
+      <div className='row'>
+        <div className='col-6'>
+          <li>3.3 KV to 33 KV CICO Panels</li>
+  <li>3.3 KV to 33 KV Line-up  Panels</li>
+        </div>
+        <div className='col-6'>
+  <li>Medium Voltage Soft Starters</li>
+  <li>Neutral Groundis Resistors Panels</li>
+        </div>
+      </div>
+
+
+  </ul>
+    </div>
+    <div id="menu1" className="container tab-pane fade"> <br/>
+      <h3>Low Voltage Panels</h3>
+      <div className='row'>
+    <div className='col-6'><ul>
+<li>PCC</li>
+  <li>MCC</li>
+  <li>Soft Starter Panels</li>
+  <li>VFD Panels</li>
+  </ul>
+  </div>
+    <div className='col-6'>
+        <ul>
+  <li>DC Drive Panels</li>
+  <li>Distribution Boards</li>
+  <li>Control Desks</li>
+  <li>Fire Fighting Panels</li>
 </ul>
-</li>
+    </div>
+  </div>
+    </div>
+    <div id="menu2" className="container tab-pane fade"><br/>
+    <h3>Special</h3>
 
-</ul>
-</div>
+      <ul>
+    <li>Control & Relay Panels</li>
+  <li>Bus Ducts</li>
+  <li>DBR</li>
+  <li>Compact Substations</li>
+  </ul>
+    </div>
+  </div>
 
 
-</div> */}
 
 </div>
 
@@ -256,98 +298,7 @@ const Products = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex '>
-<img src={product1} alt="swiper-img2" className='swipimgcard2'/>
-&nbsp;
-&nbsp;
-&nbsp;
-<div className='content2'>
-<h4 className='pt-2'>Medium Voltage Panels</h4>
-
-<div className='row'>
-    <div className='col-6'>
-<ul className='single-list'> 
-<li style={{listStyle:"none"}}><TiTick/> 3.3 KV to 33 KV CICO Panels</li>
-<li style={{listStyle:"none"}}><TiTick/> 3.3 KV to 33 KV Line-up  Panels</li>
-<li style={{listStyle:"none"}}><TiTick/> Medium Voltage Soft Starters</li>
-<li style={{listStyle:"none"}}><TiTick/> Neutral Groundis Resistors Panels</li>
-    </ul>
-</div>
-
-
-
-
-</div>
-
-</div>
-
-            </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex '>
-<img src={product1} alt="swiper-img2" className='swipimgcard2'/>
-&nbsp;
-&nbsp;
-&nbsp;
-<div className='content2'>
-<h4 className='pt-2'>Low Voltage Panels</h4>
-
-<div className='row'>
-    <div className='col-6'>
-<ul className='single-list'> 
-<li style={{listStyle:"none"}}><TiTick/> PCC</li>
-<li style={{listStyle:"none"}}><TiTick/> MCC</li>
-<li style={{listStyle:"none"}}><TiTick/> Soft Starter Panels</li>
-<li style={{listStyle:"none"}}><TiTick/> VFD Panels</li>
-    </ul>
-</div>
-
-<div className='col-6'>
-<ul className='single-list'> 
-<li style={{listStyle:"none"}}><TiTick/> DC Drive Panels</li>
-<li style={{listStyle:"none"}}><TiTick/> Distribution Boards</li>
-<li style={{listStyle:"none"}}><TiTick/> Control Desks</li>
-<li style={{listStyle:"none"}}><TiTick/> Fire Fighting Panels</li>
-    </ul>
-</div>
-
-
-
-</div>
-
-</div>
-
-            </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex '>
-<img src={product1} alt="swiper-img2" className='swipimgcard2'/>
-&nbsp;
-&nbsp;
-&nbsp;
-<div className='content2'>
-<h4 className='pt-2'>Special</h4>
-
-<div className='row'>
-    <div className='col-6'>
-<ul className='single-list'> 
-<li style={{listStyle:"none"}}><TiTick/> Control & Relay Panels</li>
-<li style={{listStyle:"none"}}><TiTick/> Bus Ducts</li>
-<li style={{listStyle:"none"}}><TiTick/> DBR</li>
-<li style={{listStyle:"none"}}><TiTick/> Compact Substations</li>
-    </ul>
-</div>
-</div>
-
-</div>
-
-            </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex '>
+            <div className='card-swiper-offer3'>
 <img src={product1} alt="swiper-img2" className='swipimgcard2'/>
 &nbsp;
 &nbsp;
@@ -356,7 +307,7 @@ const Products = () => {
 <h4 className='pt-2'>Supply of Spares</h4>
 
 <div className='row'>
-    <div className='col-6'>
+    <div className='col-lg-6 col-md-6 col-12'>
 <ul className='single-list'> 
 <li style={{listStyle:"none"}}><TiTick/> Substation Equipments</li>
 <li style={{listStyle:"none"}}><TiTick/> Switchgear MV Panel Spares</li>
@@ -374,7 +325,7 @@ const Products = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex '>
+            <div className='card-swiper-offer3 '>
 <img src={product1} alt="swiper-img2" className='swipimgcard2'/>
 &nbsp;
 &nbsp;
@@ -383,7 +334,7 @@ const Products = () => {
 <h4 className='pt-2'>Solutions</h4>
 
 <div className='row'>
-    <div className='col-6'>
+    <div className='col-lg-6 col-md-6 col-12'>
 <ul className='single-list'> 
 <li style={{listStyle:"none"}}><TiTick/> Substation Solution</li>
 <li style={{listStyle:"none"}}><TiTick/> Residential Power Distribution (Layout)</li>
@@ -400,7 +351,7 @@ const Products = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex '>
+            <div className='card-swiper-offer3 '>
 <img src={product1} alt="swiper-img2" className='swipimgcard2'/>
 &nbsp;
 &nbsp;
@@ -409,7 +360,7 @@ const Products = () => {
 <h4 className='pt-2'>Services</h4>
 
 <div className='row'>
-    <div className='col-6'>
+    <div className='col-lg-6 col-md-6 col-12'>
 <ul className='single-list'> 
 <li style={{listStyle:"none"}}><TiTick/> Design & Development</li>
 <li style={{listStyle:"none"}}><TiTick/> AMC Services</li>
@@ -426,7 +377,7 @@ const Products = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex '>
+            <div className='card-swiper-offer3 '>
 <img src={product1} alt="swiper-img2" className='swipimgcard2'/>
 &nbsp;
 &nbsp;
@@ -435,7 +386,7 @@ const Products = () => {
 <h4 className='pt-2'>Pumps & Valves</h4>
 
 <div className='row'>
-    <div className='col-6'>
+    <div className='col-lg-6 col-md-6 col-12'>
 <ul className='single-list'> 
 <li style={{listStyle:"none"}}><TiTick/> Centrifugal Pumps</li>
 <li style={{listStyle:"none"}}><TiTick/> Fire Fighting Pumps</li>
@@ -454,7 +405,7 @@ const Products = () => {
 
 
         <SwiperSlide>
-            <div className='card-swiper-offer3 d-flex'>
+            <div className='card-swiper-offer3'>
 <img src={product1} alt="swiper-img2" className='swipimgcard2'/>
 &nbsp;
 &nbsp;
@@ -463,7 +414,7 @@ const Products = () => {
 <h4 className='pt-2'>Break Motors</h4>
 
 <div className='row'>
-    <div className='col-6'>
+    <div className='col-lg-6 col-md-6 col-12'>
 <ul className='single-list'> 
 <li style={{listStyle:"none"}}><TiTick/> Gear Motor with Brake</li>
 <li style={{listStyle:"none"}}><TiTick/> Crane Duty Brake Motor</li>

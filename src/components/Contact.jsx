@@ -6,11 +6,11 @@ import {FiMail} from 'react-icons/fi';
 const Contact = () => {
   return (
     <>
-        <section className='contactsec pt-5  pb-5'>
+        <section className='contactsec pt-5  pb-5' id="contact">
             <div className='container'>
-                <div className='row'>
+                <div className='row card-gray-bg'>
                     <div className='col-lg-6'>
-                    <h2>Get In Touch </h2>
+                    <h2 style={{fontSize:"60px", color:"#0280fe"}}>Get In Touch </h2>
 <h5 className='pt-4'><IoLocationOutline/> Address</h5>
 <p>No 294, 10th Main, 4th BlockRajaji Nagar, Bangalore - 560010</p>
 

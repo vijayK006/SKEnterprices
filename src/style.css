@@ -16,281 +16,424 @@
     width: 100%;
   } */
 
-@media only screen and (max-width:600px){
-    .card-swiper-offer{
-    height: 460px;
+@media only screen and (max-width:600px) {
+    .card-swiper-offer {
+        height: 460px;
     }
 
-    .bg-satndardmotors{
-    
-    height: 800px;
-}
+    .productDetailCard2 {
+        display: none;
+    }
 
-.bg-content{
-    width: 100%;
-    top: 50%;
-left: 5%;
-transform: translate(0%, -50%);
-}
+    .productDetailCard {
+        display: none;
+    }
+
+    .justify-t-inmobile {
+        text-align: justify;
+    }
+
+    .bg-satndardmotors {
+
+        height: 800px;
+    }
+
+    .bread-innerImg2 {
+        height: 300px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .swipimgcard2 {
+        height: 300px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .card-swiper-offer3 {
+        display: block;
+    }
+
+    .content2 {
+        width: 100%;
+    }
+
+    .bread-innerImg {
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+    }
 
 
-    .card-swiper-offer2{
+    .offer-inner-card {
+        height: 90px;
+    }
+
+    .bg-content {
+        width: 100%;
+        top: 50%;
+        left: 0%;
+        transform: translate(0%, -50%);
+        padding: 0px 20px;
+    }
+
+
+    .card-swiper-offer2 {
         height: 530px;
-        }
+    }
 
-    .carousel-inner{
-       
-            }
+    .carousel-inner {}
 
-            .banner-img{
-                height: 400px;
-            }
-
-    .card-about{
-position: relative;
-height: 305px;
-}
-
-.leave-navbar{
-
-}
-
-.sectionImg{
-    height: 300px;
-    width: 100%;
-}
-
-.banner-heading{
-    color: #41516a;
-    font-size: 65px;
-    font-family: 'Varela Round', sans-serif;
-
-}
-
-.bg-banner{
-    height: 650px;
-padding-top: 150px;
-}
-
-.swiper-mod{
- display: none !important;
-    height: 600px;
-    width: 70%;
-    border-radius: 20px;
-}
-
-.banner-heading{
-    font-size: 30px;
-}
-
-}
-
-@media only screen and (min-width:768px){
-    .carousel-inner{
+    .banner-img {
         height: 400px;
-            }
-
-            .bg-satndardmotors{
-    
-                height: 800px;
-            }
-
-            .bg-content{
-                width: 50%;
-                top: 50%;
-left: 10%;
-transform: translate(-10%, -50%);
-            }
-
-            .card-swiper-offer{
-    height: 500px;
-            }
-
-            .card-swiper-offer2{
-                height: 500px;
-                        }
-
-
-            .banner-img{
-                height: 400px;
-            }
-
-    .card-about{
-position: relative;
-}
-
-.leave-navbar{
-
-}
-
-.banner-heading{
-    font-size: 30px;
-}
-
-}
-
-@media only screen and (min-width:998px){
-    .carousel-inner{
-height: 500px;
     }
 
-    .bg-satndardmotors{
-    
-        height: 700px;
+    .card-about {
+        position: relative;
+        height: 305px;
     }
 
-    .bg-content{
+    .leave-navbar {}
+
+    .sectionImg {
+        height: 300px;
+        width: 100%;
+    }
+
+    .banner-heading {
+        color: #41516a;
+        font-size: 65px;
+        font-family: 'Varela Round', sans-serif;
+
+    }
+
+    .bg-banner {
+        height: 650px;
+        padding-top: 150px;
+    }
+
+    .swiper-mod {
+        display: none !important;
+        height: 600px;
+        width: 70%;
+        border-radius: 20px;
+    }
+
+    .banner-heading {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (min-width:768px) {
+    .carousel-inner {
+        height: 400px;
+    }
+
+    .bg-satndardmotors {
+
+        height: 800px;
+    }
+
+    .productDetailCard2 {
+        display: block;
+    }
+
+    .productDetailCard {
+        display: block;
+    }
+
+    .swipimgcard2 {
+        height: 300px;
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    .content2 {
+        width: 60%;
+    }
+
+    .card-swiper-offer3 {
+        display: flex;
+    }
+
+    .bg-content {
         width: 50%;
         top: 50%;
-left: 10%;
-transform: translate(-10%, -50%);
+        left: 10%;
+        transform: translate(-10%, -50%);
     }
 
-    .q-card{
-        height: 260px;
-        }
+    .offer-inner-card {}
 
-    .card-swiper-offer{
-        height: 450px;
-    
-    }
-    .card-swiper-offer2{
-        height: 550px;
-    
-    }
-
-    .banner-img{
+    .card-swiper-offer {
         height: 500px;
     }
 
-    .card-about{
-position: relative;
-height: 390px;
-}
-
-
-
-    .col-build-5{
-        width: 20%;
+    .card-swiper-offer2 {
+        height: 500px;
     }
-.leave-navbar{
-    padding-top: 80px;
+
+
+    .banner-img {
+        height: 400px;
+    }
+
+    .card-about {
+        position: relative;
+    }
+
+    .leave-navbar {}
+
+    .banner-heading {
+        font-size: 30px;
+    }
 
 }
 
-.sectionImg{
-    height: 400px;
-    width: 100%;
-}
+@media only screen and (min-width:998px) {
+    .carousel-inner {
+        height: 500px;
+    }
 
-.swiper-mod{
-    height: 450px;
-    width: 70%;
-    border-radius: 20px;
-}
+    .bg-satndardmotors {
 
-.banner-heading{
-    color: #41516a;
-    font-size: 65px;
-    font-family: 'Varela Round', sans-serif;
-
-}
-
-.bg-banner{
-    height: 650px;
-padding-top: 50px;
-}
-
-}
-
-@media only screen and (min-width:1400px){
-    .carousel-inner{
         height: 700px;
-            }
-
-            .bg-content{
-                width: 50%;
-                top: 50%;
-left: 10%;
-transform: translate(-10%, -50%);
-            }
-
-            .card-swiper-offer{
-                height: 470px;
-    
-            }
-
-            .card-swiper-offer2{
-                height: 530px;
-    
-            }
-    .q-card{
-    height: 240px;
     }
 
-            .bg-satndardmotors{
-    
-                height: 700px;
-            }
+    .card-swiper-offer3 {
+        display: flex;
+    }
 
-            .banner-img{
-                height: 700px;
-            }
+    .productDetailCard2 {
+        display: block;
+    }
 
-    .card-about{
-position: relative;
-height: 360px;
-}
+    .productDetailCard {
+        display: block;
+    }
+
+    .content2 {
+        width: 60%;
+    }
+
+    .swipimgcard2 {
+        height: 300px;
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    .bread-innerImg2 {
+        height: 400px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+    .bg-content {
+        width: 50%;
+        top: 50%;
+        left: 10%;
+        transform: translate(-10%, -50%);
+    }
+
+    .bread-innerImg {
+        width: 90%;
+        height: 600px;
+        border-radius: 20px;
+    }
+
+    .offer-inner-card {
+        height: 100px;
+    }
+
+    .q-card {
+        height: 280px;
+    }
+
+    .card-swiper-offer {
+        height: 450px;
+
+    }
+
+    .card-swiper-offer2 {
+        height: 550px;
+
+    }
+
+    .banner-img {
+        height: 500px;
+    }
+
+    .card-about {
+        position: relative;
+        height: 390px;
+    }
 
 
 
-    .col-build-5{
+    .col-build-5 {
         width: 20%;
     }
-.leave-navbar{
-padding-top: 80px;
+
+    .leave-navbar {
+        padding-top: 80px;
+
+    }
+
+    .sectionImg {
+        height: 400px;
+        width: 100%;
+    }
+
+    .swiper-mod {
+        height: 450px;
+        width: 70%;
+        border-radius: 20px;
+    }
+
+    .banner-heading {
+        color: #41516a;
+        font-size: 65px;
+        font-family: 'Varela Round', sans-serif;
+
+    }
+
+    .bg-banner {
+        height: 650px;
+        padding-top: 50px;
+    }
+
 }
 
-.sectionImg{
-    height: 400px;
-    width: 100%;
+@media only screen and (min-width:1400px) {
+    .carousel-inner {
+        height: 700px;
+    }
+
+    .bg-content {
+        width: 50%;
+        top: 50%;
+        left: 10%;
+        transform: translate(-10%, -50%);
+    }
+
+    .card-swiper-offer {
+        height: 470px;
+
+    }
+
+    .productDetailCard2 {
+        display: block;
+    }
+
+    .productDetailCard {
+        display: block;
+    }
+
+    .bread-innerImg2 {
+        height: 400px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .swipimgcard2 {
+        height: 300px;
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    .content2 {
+        width: 60%;
+    }
+
+    .card-swiper-offer3 {
+        display: flex;
+    }
+
+    .bread-innerImg {
+        width: 90%;
+        height: 590px;
+        border-radius: 20px;
+    }
+
+    .card-swiper-offer2 {
+        height: 530px;
+
+    }
+
+    .offer-inner-card {
+        height: 100px;
+    }
+
+    .q-card {
+        height: 240px;
+    }
+
+    .bg-satndardmotors {
+
+        height: 700px;
+    }
+
+    .banner-img {
+        height: 700px;
+    }
+
+    .card-about {
+        position: relative;
+        height: 360px;
+    }
+
+
+
+    .col-build-5 {
+        width: 20%;
+    }
+
+    .leave-navbar {
+        padding-top: 80px;
+    }
+
+    .sectionImg {
+        height: 400px;
+        width: 100%;
+    }
+
+    .bg-banner {
+        height: 800px;
+        padding-top: 50px;
+
+    }
+
+    .swiper-mod {
+        height: 600px;
+        width: 70%;
+        border-radius: 50px;
+    }
+
+    .banner-heading {
+        color: #41516a;
+        font-size: 70px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
 }
 
-.bg-banner{
-    height: 800px;
-    padding-top: 50px;
 
+
+.banner-slider-img {
+    height: fit-content;
 }
 
-.swiper-mod{
-    height: 600px;
-    width: 70%;
-    border-radius: 50px;
-}
-
-.banner-heading{
-    color: #41516a;
-    font-size: 70px;
-    font-family: 'Varela Round', sans-serif;
-}
-
-}
-
-
-
-.banner-slider-img{
-height:fit-content;
-}
-
-.bg-banner{
+.bg-banner {
     position: relative;
-    background-image:url("./img/backgroundBanner.jpg") ;
+    background-image: url("./img/backgroundBanner.jpg");
     width: 100%;
     background-position: center;
     background-size: cover;
 }
 
-.white-bg{
+.white-bg {
     position: absolute;
     background-color: #ffffffeb;
     height: 100%;
@@ -300,80 +443,80 @@ height:fit-content;
 
 
 
-.section-heading{
+.section-heading {
     color: #41516a;
     font-size: 60px;
 }
 
 
-.btn-learn{
-position: absolute;
-bottom: 5%;
-text-decoration: none;
-color: black;
-background-color: #5f87df;
-border-radius: 5px;
-width: 150px;
-text-align: center;
-line-height: 2.5;
-color: white;
-transition: all 0.3s ease-in-out;
+.btn-learn {
+    position: absolute;
+    bottom: 5%;
+    text-decoration: none;
+    color: black;
+    background-color: #5f87df;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    line-height: 2.5;
+    color: white;
+    transition: all 0.3s ease-in-out;
 }
 
-.btn-learn:hover{
+.btn-learn:hover {
     background-color: #83aaff;
     color: white;
 }
 
-.card-about{
+.card-about {
     background-color: white;
     box-shadow: 0px 0px 5px 0px #c9c9c9;
     border-radius: 10px;
     padding: 12px;
 }
 
-.card-about:hover{
-cursor: pointer;
+.card-about:hover {
+    cursor: pointer;
 }
 
-.about-icons{
-font-size: 30px;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-transition: all 0.3s ease-in-out;
+.about-icons {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out;
 }
 
-.thumb{
+.thumb {
     background-color: #e0e0e0;
     height: 60px;
     width: 60px;
     border-radius: 2px 10px 10px 10px;
     position: absolute;
-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
 
 }
 
-.thumber{
+.thumber {
     height: 60px;
     width: 60px;
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-.card-about:hover .thumb{
+.card-about:hover .thumb {
     background-color: #83aaff;
 
 }
 
-.card-about:hover .about-icons{
-color: white;
+.card-about:hover .about-icons {
+    color: white;
 
 }
 
 
-.btn-find-model{
+.btn-find-model {
     width: 200px;
     border: none;
     line-height: 2.5;
@@ -382,7 +525,7 @@ color: white;
 
 }
 
-.bg-black-opacity{
+.bg-black-opacity {
     text-align: left;
     font-size: 30px;
     font-weight: 600;
@@ -390,11 +533,11 @@ color: white;
     z-index: 111;
 }
 
- /* url(assets/img/hero-img-2.jpg) center center no-repeat rgba(0, 0, 0, 0.5);
+/* url(assets/img/hero-img-2.jpg) center center no-repeat rgba(0, 0, 0, 0.5);
     position: relative;
     background-blend-mode: darken; */
 
-.carousel-caption{
+.carousel-caption {
     top: 60%;
     left: 30%;
     width: 60%;
@@ -403,38 +546,31 @@ color: white;
     /* padding: 0px 0px ; */
 }
 
-.bg-black-banner{
+.bg-black-banner {
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.623);
-top: 0%;
+    top: 0%;
 
 }
 
-.card-about p{
-text-align: justify;
+.card-about p {
+    text-align: justify;
 }
 
-.offer-card{
 
+.offer-thumb {
+    position: relative;
+    background-color: white;
+    box-shadow: 0px 0px 7px 0px #c8c8c8;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    margin-bottom: 20px;
 }
 
-.offer-card p{
-    
-}
-
-.offer-thumb{
-position: relative;
-background-color: white;
-box-shadow: 0px 0px 7px 0px #c8c8c8;
-height: 70px;
-width: 70px;
-border-radius: 50px;
-margin-bottom: 20px;
-}
-
-.thumb-icon{
+.thumb-icon {
     font-size: 30px;
     position: absolute;
     top: 50%;
@@ -443,169 +579,324 @@ margin-bottom: 20px;
 
 }
 
-.font-weight-500{
+.font-weight-500 {
     font-weight: 500;
 }
 
-.sectionImg{
+.sectionImg {
     border-radius: 10px;
-    }
+}
 
-    .sub-header{
-        text-align: center;
-        width: max-content;
-        box-shadow: 0px 0px 5px 0px #bcbcbc;
-        padding: 10px;
-        border-radius: 20px;
+.sub-header {
+    text-align: center;
+    width: max-content;
+    box-shadow: 0px 0px 5px 0px #bcbcbc;
+    padding: 10px;
+    border-radius: 20px;
 
-        letter-spacing: 1px;
-        margin-top: 10px;
-        font-size: 15px;
-    }
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-size: 15px;
+}
 
-    .card-swiper-offer{
-        position: relative;
-        box-shadow: 0px 0px 5px 0px #bcbcbc;
-        width: 100%;
-        margin: 50px 0px;
-        border-radius: 10px;
-        padding: 10px;
-    }
+.card-swiper-offer {
+    position: relative;
+    box-shadow: 0px 0px 5px 0px #bcbcbc;
+    width: 100%;
+    margin: 50px 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
 
-    .card-swiper-offer2{
-        position: relative;
-        box-shadow: 0px 0px 5px 0px #bcbcbc;
-        width: 100%;
-        margin: 50px 0px;
-        border-radius: 10px;
-        padding: 10px;
-    }
+.card-swiper-offer2 {
+    position: relative;
+    box-shadow: 0px 0px 5px 0px #bcbcbc;
+    width: 100%;
+    margin: 50px 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
 
-    .btnsec{
-position: absolute;
-bottom: 2%;
-    }
-    .swipimgcard{
-        height: 200px;
-        width: 100%;
-        border-radius: 10px;
-    }
+.btnsec {
+    position: absolute;
+    bottom: 2%;
+}
 
-    .swipimgcard2{
-        height: 300px;
-        width: 40%;
-        border-radius: 10px;
-    }
+.swipimgcard {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
 
-    .content2{
-width: 60%;
-    }
-    
 
-    .sec-para{
-        font-weight: 500;
-        font-size: 20px;
-    }
 
-    .swiper{
-        padding: 5px !important;
-    }
+.sec-para {
+    font-weight: 500;
+    font-size: 20px;
+}
 
-    .bg-satndardmotors{
-        background-image: url('./img/products/standardmotor.jpeg');
-        width: 100%;
-        background-position: center;
-        background-size: cover;
-        position: relative;
-    }
+.swiper {
+    padding: 5px !important;
+}
 
-    .bg-content{
-position: absolute;
-    }
+.bg-satndardmotors {
+    background-image: url('./img/products/standardmotor.jpeg');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 
-    .bg-content p{
-        color: white;
+.bg-content {
+    position: absolute;
+}
 
-    }
+.bg-content p {
+    color: white;
 
-    .bg-content h2{
-        color: white;
+}
 
-    }
+.bg-content h2 {
+    color: white;
 
-    .bg-content h5{
-        color: white;
+}
 
-    }
+.bg-content h5 {
+    color: white;
 
-    .seclist li{
-        color: white;
-    }
+}
 
-    .cart-list-items li{
-font-size: 15px;
-    }
+.seclist li {
+    color: white;
+}
 
-    .single-list li{
-margin: 8px 0px;
-    }
+.cart-list-items li {
+    font-size: 15px;
+}
 
-    .breadcrumb{
-        background-image:url('./img/crumb.jpg') ;
+.single-list li {
+    margin: 8px 0px;
+}
+
+.breadcrumb {
+    background-image: url('./img/crumb.jpg');
     height: 400px;
     width: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-    }
+}
 
-    .crumb-content{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+.crumb-content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%, -50%);
+    width: 60%;
+}
 
-    .crumb-content{
-z-index: 111;
-    } 
+.crumb-content {
+    z-index: 111;
+}
 
-    .crumb-content h1{
-font-size: 50px;
-color: white;
+.crumb-content h1 {
+    font-size: 50px;
+    color: white;
 
-    
-    }
 
-    .content-breadcrumb h2{
-font-size: 45px;
-    }
+}
 
-    .content-breadcrumb p{
-text-align: justify;
-    }
+.content-breadcrumb h2 {
+    font-size: 45px;
+}
 
-    .bread-innerImg{
-        width: 90%;
-        height: 560px;
-        border-radius: 20px;
-    }
+.content-breadcrumb p {
+    text-align: justify;
+}
 
-    .q-card{
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0px 0px 7px 0px #cacaca;
-        padding: 10px;
-    
-    }
 
-    .q-card h3{
-        
-    }
 
-    .q-card p{
-        text-align: justify;
-        color: gray;
-        font-weight: 500;
-        margin-top: 20px;
-    }
+.q-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px #cacaca;
+    padding: 10px;
+
+}
+
+.q-card h3 {}
+
+.q-card p {
+    text-align: justify;
+    color: gray;
+    font-weight: 200;
+    margin: 15px 10px 0px 40px;
+}
+
+
+.offer-inner-card {
+    box-shadow: 0px 0px 8px 0px #cecece;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.offer-inner-card:hover {
+    background-color: #41516a;
+}
+
+.offer-inner-card .offer-card {
+    color: #d4d4d4;
+    transition: all 0.3s ease-in-out;
+    font-size: 70px;
+    position: absolute;
+    transform: translateX(0px);
+}
+
+.offer-inner-card:hover .offer-card {
+    color: white;
+    transform: translateX(20px);
+
+}
+
+.offer-inner-card h5 {
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.offer-inner-card:hover h5 {
+    color: white;
+
+}
+
+.numbering-dig {
+    font-size: 50px;
+    color: rgb(189, 189, 189);
+}
+
+.card-gray-bg {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.forst-sec-icons {
+    font-size: 50px;
+    color: #ff6b6a;
+    margin: 20px 10px;
+}
+
+.first-sec h2 {
+    font-size: 40px;
+}
+
+.card-swiper-offer3 {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.product-cards {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    /* overflow: hidden; */
+
+}
+
+.product-img2 {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.productTitle {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+    z-index: -10;
+    background-color: white;
+    box-shadow: 0px 2px 9px 0px rgb(219, 219, 219);
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    border-radius: 10px;
+    padding-top: 20px;
+
+}
+
+.product-cards:hover .productTitle {
+    top: 90%;
+    visibility: visible;
+    z-index: -1;
+}
+
+.product-cards:hover .productDetailCard {
+    opacity: 1;
+    visibility: visible;
+    left: 95%;
+    z-index: 10;
+
+}
+
+
+
+
+.productDetailCard {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    height: 100%;
+    opacity: 0;
+    z-index: -10;
+    visibility: hidden;
+    width: max-content;
+    box-shadow: 0px 2px 9px 0px rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.productDetailCard2 {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: -10;
+    visibility: hidden;
+    width: max-content;
+    box-shadow: 0px 2px 9px 0px rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.product-cards:hover .productDetailCard2 {
+    opacity: 1;
+    visibility: visible;
+    right: 95%;
+    z-index: 10;
+
+}
+
+.list-content_li li {
+    width: max-content;
+    margin: 5px 10px;
+    list-style: circle;
+}
+
+.tab-title{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
